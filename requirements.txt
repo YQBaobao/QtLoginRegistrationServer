@@ -1,0 +1,16 @@
+#The project is developed based on Windows Python3.8-64, version: 3.8.10
+fastapi~=0.110.0
+uvicorn~=0.25.0
+SQLAlchemy~=2.0.23
+pymysql~=1.1.0
+email-validator
+bcrypt~=4.0.1
+python-jose~=3.3.0
+python-multipart~=0.0.9
+passlib[bcrypt]~=1.7.4
+aioredis~=2.0.1
+dependency-injector~=4.41.0
+Alembic~=1.13.1
+yagmail~=0.15.293
+celery[redis]~=5.3.6
+gevent~=23.9.1

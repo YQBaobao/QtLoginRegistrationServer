@@ -1,0 +1,4 @@
+Generic single-database configuration.
+
+alembic revision --autogenerate -m "creat first table"
+alembic upgrade head
