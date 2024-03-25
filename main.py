@@ -114,7 +114,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 async def custom_swagger_ui_html():
     return get_swagger_ui_html(
         openapi_url="/api/openapi.json",
-        title="FShuttleFrameworkServer" + " - Swagger UI",
+        title=title + " - Swagger UI",
         oauth2_redirect_url="/docs/oauth2-redirect",
         swagger_js_url="/static/js/swagger-ui-bundle.js",
         swagger_css_url="/static/css/swagger-ui.css",
